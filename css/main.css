@@ -1,0 +1,103 @@
+.main-nav {
+background-color: #427340;
+}
+
+.main-nav .navbar-nav a.nav-link {
+   color: whitesmoke;
+   font-weight: 400;
+}
+
+.main-nav .navbar-nav a.nav-link.active, .main-nav .navbar-nav .nav-link:hover {
+    color: burlywood;
+}
+
+.navbar-brand{
+ font-weight: 500 ;
+ font-size:30px;
+
+}
+.navbar-brand .p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.home {
+    background-image: url(https://ragamlampung.com/wp-content/uploads/2018/01/tahura-wan-abdul-rahman-bandarlampung.jpg);
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+    background-position: 0 -50px;
+    height: 400px;
+    padding-top: 5rem;
+}
+
+.home .row .display-4 {
+color: #d0ec54;
+}
+
+.home .row .tulisan .seconp{
+    font-size:22px;
+}
+
+#list {
+    background-color: floralwhite; 
+}
+
+.img-thumbnail {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+  }
+
+  /* thumbnail */
+  .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+  }
+  
+  .thumbnail > img,
+  .thumbnail a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  a.thumbnail:hover,
+  a.thumbnail:focus,
+  a.thumbnail.active {
+    border-color: #428bca;
+  }
+  
+  .thumbnail .caption {
+    padding: 9px;
+    color: #333333;
+  }
+
+/* tambahan */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
